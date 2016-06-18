@@ -1,0 +1,13 @@
+//how we did stuff:
+//git the sample code, then the issue was actually getting it onto the device
+//THIS part took the absolute longest
+//The holy bible:
+https://github.com/relayr/ESP8266_Lua
+https://github.com/themadinventor/esptool/
+
+//thee was success, then we were stuck for a long time (overnight)
+
+installing various python stuff
+use Putty to communicate with the actual device
+dofile(“run.lua”)
+luatool.py -p COM4 -f C:\Users\johnp\Downloads\lua-5.3.2_Win64_bin\application.lua -t application.lua -v
